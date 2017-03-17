@@ -1,0 +1,45 @@
+Insert abc
+Success
+Insert def
+Success
+Insert fgh
+Success
+Insert abcde
+Success
+Insert abcdefgh
+Success
+Prefix ab
+abc
+abcde
+abcdefgh
+Prefix d
+def
+Prefix e
+Delete def
+Success
+Delete abcde
+Success
+Delete defg
+Failure
+Prefix a
+abc
+abcdefgh
+Prefix d
+Prefix f
+fgh
+Insert zabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd
+Success
+Prefix z
+zabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd
+
+Negative Test Cases
+Insert 5 spaces
+Failure
+Insert ' abcd'
+Success
+Insert 'ab*dc'
+Failure
+Insert '*abdc'
+Failure
+Insert 'abdc*'
+Failure
